@@ -1,0 +1,269 @@
+@media(max-width:1140px) {
+
+    .catalog,
+    .box {
+        gap: 30px;
+        overflow-x: auto;
+    }
+
+    .box {
+        padding: 30px 0;
+    }
+
+    .catalog__item,
+    .box__item {
+        flex-shrink: 0;
+    }
+}
+
+@media(max-width:1000px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        max-width: 540px;
+        width: 100%;
+        margin: 30px auto 0;
+    }
+}
+
+@media(max-width:900px) {
+    .widow {
+        background: rgba(255, 255, 255, 0.6);
+    }
+}
+
+@media(max-width:700px) {
+    .grid{
+        gap: 15px;
+    }
+    .widow__title {
+        width: 380px;
+    }
+
+    .logo {
+        font-size: 16px;
+    }
+
+    .logo img {
+        width: 80px;
+    }
+
+    .nav__link span {
+        padding: 30px 6px 29px;
+    }
+
+    .list {
+        gap: 10px;
+    }
+
+    .header__icon {
+        font-size: 40px;
+    }
+
+    .header__info-title {
+        font-size: 50px;
+        line-height: 120%;
+    }
+
+    .header {
+        height: 550px;
+    }
+}
+
+@media(max-width:550px) {
+   
+    .header__top {
+        height: 60px;
+    }
+
+    .nav {
+        padding: 15px 0;
+    }
+
+    .div {
+        display: block;
+        width: 30px;
+        height: 2px;
+        background-color: white;
+        position: relative;
+    }
+
+    .div::after,
+    .div::before {
+        content: '';
+        position: absolute;
+        top: -8px;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+    }
+
+    .div::after {
+        top: 8px;
+    }
+
+    .list {
+        display: none;
+    }
+}
+
+@media(max-width:500px) {
+    .grid_1{
+        grid-row: span 1 ;
+        grid-column: span 1;
+    }
+    .grid{
+        display: flex;
+        overflow-x: auto;
+    }
+    .grid__box{
+        flex-shrink: 0;
+        width: 230px;
+    }
+    .grid__icon{
+        font-size: 35px;
+    }
+    .grid__title{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .game {
+        height: 400px;
+    }
+
+    .game__title {
+        font-size: 35px;
+        line-height: 120%;
+    }
+
+    .game__text {
+        text-align: justify;
+        font-size: 14px;
+        margin: 15px 0;
+    }
+
+    .title {
+        margin: 30px 0;
+        font-size: 30px;
+        padding-bottom: 5px;
+    }
+
+    .widow {
+        margin-top: 30px;
+        height: 420px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .widow .link {
+        margin: 0 auto;
+    }
+
+    .widow__text {
+        font-size: 16px;
+        margin: 30px 0;
+    }
+
+    .widow__title {
+        width: 320px;
+
+    }
+
+    .header {
+        height: 400px;
+    }
+
+    .header__info-title {
+        font-size: 35px;
+    }
+
+    .header__info-text {
+        font-size: 14px;
+        margin: 20px 0;
+    }
+
+    .link,
+    .header__item-link {
+        width: 130px;
+        height: 40px;
+        font-size: 12px;
+    }
+}
+
+@media(max-width:400px) {
+    .game {
+        height: 380px;
+        padding: 0 10px;
+    }
+
+    .game__title {
+        font-size: 25px;
+    }
+
+    .game__text {
+        text-align: justify;
+        font-size: 12px;
+        margin: 15px 0;
+    }
+
+}
+
+@media(max-width:360px) {
+    .widow {
+        height: 380px;
+    }
+
+    .widow__text {
+        font-size: 14px;
+        margin: 15px 0;
+    }
+
+    .widow__title {
+        width: 260px;
+    }
+
+    .logo img {
+        width: 65px;
+    }
+
+    .logo {
+        font-size: 14px;
+    }
+
+    .header__text {
+        font-size: 14px;
+    }
+
+    .header__info-title {
+        font-size: 30px;
+    }
+
+    .header__info-text {
+        font-size: 12px;
+    }
+
+    .header__item {
+        gap: 15px;
+    }
+
+    .header {
+        height: 350px;
+    }
+
+    .link,
+    .header__item-link {
+        width: 110px;
+        height: 35px;
+    }
+}
+
+@media(max-width:320px) {
+    .header__info-title {
+        font-size: 25px;
+    }
+
+    .box__item {
+        height: 160px;
+    }
+}
